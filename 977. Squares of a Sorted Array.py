@@ -1,3 +1,4 @@
+##Two pointers, make use of the original array, O(N); Sort() is O(Nlog(N))
 class Solution:
     def sortedSquares(self,A):
         a=[]
@@ -17,4 +18,4 @@ class Solution:
             else:
                 out.append(a[i])
                 i+=1
-        return [n**2 for n in out[::-1]] 
+        return [n**2 for n in out[::-1]]    #out[::-1] is to reverse this array, it's different from sort()
