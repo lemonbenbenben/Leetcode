@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # 2. Array questions
-
-# In[ ]:
-
 
 ##1085. Sum of Digits in the Minimum Number
 class Solution:
@@ -12,7 +5,7 @@ class Solution:
         m=min(A)
         quotient=1
         r=[]
-        while quotient>0: 
+        while quotient>0:
 #             quotient,remainder=divmod(m,10)
             quotient=m//10
             remainder=m%10
@@ -22,4 +15,3 @@ class Solution:
             return 1
         else:
             return 0
-
